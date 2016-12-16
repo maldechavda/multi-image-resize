@@ -1,0 +1,24 @@
+{
+    "name": "maldechavda/mutli-image-intervention",
+    "description": "Multiple image handling and manipulation library with support for Laravel integration",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.3.*",
+        "Intervention/image": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Malde Chavda",
+            "email": "chavdamaldep@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "WeAreBeer\\MultiImage": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
