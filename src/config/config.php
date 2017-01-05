@@ -10,5 +10,7 @@ return [
                 'scale' => 'default', //fit, fill and default
             ]
         ]
-    ]
+    ],
+
+    'base' => public_path('images/'),
 ];

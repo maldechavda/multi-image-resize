@@ -60,7 +60,7 @@ class ImageType
      */
     public function makeFilePath(ImageSize $imageSize, $filename)
     {
-        $path = config('image.base') . $this->getName() . '/' . $imageSize->getName();
+        $path = config('multi_image.base') . $this->getName() . '/' . $imageSize->getName();
 
         if(! File::isDirectory($path)) {
             File::makeDirectory($path, 755, true);
